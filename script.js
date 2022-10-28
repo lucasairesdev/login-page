@@ -5,10 +5,10 @@ function checkLogin(){
     var senha = document.getElementById('senha').value;
 
     if(checkUserDB(email, senha) == true){
-        document.location.href = 'loginVerificado.html';
+        document.location.href = 'indexJogoDaVelha.html';
     }else{
         tentativasLogin --;
-        alert('Você tem mais ' + tentativasLogin + ' chances');
+        
     }
 }
 
