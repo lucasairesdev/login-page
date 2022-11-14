@@ -5,7 +5,7 @@ function checkLogin(){
     var senha = document.getElementById('senha').value;
 
     if(checkUserDB(email, senha) == true){
-        document.location.href = 'indexJogoDaVelha.html';
+        document.location.href = "store.html";
     }else{
         tentativasLogin --;
         
